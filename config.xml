@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>artsnowstorm</name>
+    <displayName><![CDATA[Art Free Snow Storm]]></displayName>
+    <version><![CDATA[1.0.3]]></version>
+    <description><![CDATA[The module inserts a javascript effect for a perfect storm of snow]]></description>
+    <author><![CDATA[Tecnoacquisti.com]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

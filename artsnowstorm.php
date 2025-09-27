@@ -379,7 +379,6 @@ class Artsnowstorm extends Module
 			'ARTSNOWSTORM_EXCLUDE_M' => Tools::getValue('ARTSNOWSTORM_EXCLUDE_M', Configuration::get('ARTSNOWSTORM_EXCLUDE_M')),
 			'ARTSNOWSTORM_SNOW_COLOR' => Tools::getValue('ARTSNOWSTORM_SNOW_COLOR', Configuration::get('ARTSNOWSTORM_SNOW_COLOR')),
             'ARTSNOWSTORM_EMOJI' => Tools::getValue('ARTSNOWSTORM_EMOJI', Configuration::get('ARTSNOWSTORM_EMOJI')),
-            'ARTSNOWSTORM_FLAKE_SIZE' => Tools::getValue('ARTSNOWSTORM_EMOJI', Configuration::get('ARTSNOWSTORM_EMOJI')),
             'ARTSNOWSTORM_FLAKE_SIZE' => Tools::getValue('ARTSNOWSTORM_FLAKE_SIZE', Configuration::get('ARTSNOWSTORM_FLAKE_SIZE')),
         );
     }

@@ -41,3 +41,21 @@ The module allows you to personalize the appearance and behavior of the snowflak
 - Adjust flake size, emoji, and color.  
 - Toggle behavioral options (twinkle, follow mouse, etc.).  
 - Save changes and refresh the front office to see the snowstorm in action.# Art Free Snow Storm
+
+- ## Development
+The module is maintained in a public Git repository.  
+Development follows semantic versioning (`MAJOR.MINOR.PATCH`) and each tagged version corresponds to a tested release.  
+Preview builds may be provided before a stable release for testing purposes.
+
+---
+
+## Credits
+- Based on the original **[Snowstorm](https://www.schillmania.com/projects/snowstorm/)** JavaScript library by Scott Schiller.  
+- Adapted and extended for PrestaShop with configurable options and multishop support.
+
+---
+
+## License
+This module is released under the **Academic Free License 3.0 (AFL-3.0)**.  
+See the [LICENSE](LICENSE) file for details or visit [https://opensource.org/licenses/AFL-3.0](https://opensource.org/licenses/AFL-3.0).
+

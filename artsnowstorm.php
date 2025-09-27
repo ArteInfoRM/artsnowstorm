@@ -22,7 +22,7 @@ class Artsnowstorm extends Module
     {
         $this->name = 'artsnowstorm';
         $this->tab = 'front_office_features';
-        $this->version = '1.0.3';
+        $this->version = '1.0.4';
         $this->author = 'Tecnoacquisti.com';
         $this->need_instance = 0;
 

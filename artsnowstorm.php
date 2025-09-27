@@ -99,8 +99,10 @@ class Artsnowstorm extends Module
             $artsnowstorm_emoji = pSQL(Tools::substr($artsnowstorm_emoji, 0, 8));
 
             $artsnowstorm_flake_size = Tools::getValue('ARTSNOWSTORM_FLAKE_SIZE');
+
             if ($artsnowstorm_flake_size === '') {
-                $artsnowstorm_flake_size = Configuration::get('ARTSNOWSTORM_FLAKE_SIZE', 24);
+                $saved = Configuration::get('ARTSNOWSTORM_FLAKE_SIZE');
+                $artsnowstorm_flake_size = ($saved !== false && $saved !== null && $saved !== '') ? $saved : 24;
             }
 
             if (!is_numeric($artsnowstorm_flake_size)) {
@@ -376,13 +378,9 @@ class Artsnowstorm extends Module
 			'ARTSNOWSTORM_FOLLOW_MOUSE' => Tools::getValue('ARTSNOWSTORM_FOLLOW_MOUSE', Configuration::get('ARTSNOWSTORM_FOLLOW_MOUSE')),
 			'ARTSNOWSTORM_EXCLUDE_M' => Tools::getValue('ARTSNOWSTORM_EXCLUDE_M', Configuration::get('ARTSNOWSTORM_EXCLUDE_M')),
 			'ARTSNOWSTORM_SNOW_COLOR' => Tools::getValue('ARTSNOWSTORM_SNOW_COLOR', Configuration::get('ARTSNOWSTORM_SNOW_COLOR')),
-            'ARTSNOWSTORM_EMOJI' => Tools::getValue('ARTSNOWSTORM_EMOJI', Configuration::get('ARTSNOWSTORM_EMOJI', '❄️')),
-            'ARTSNOWSTORM_FLAKE_SIZE' => Tools::getValue(
-            'ARTSNOWSTORM_FLAKE_SIZE',
-            (Configuration::get('ARTSNOWSTORM_FLAKE_SIZE') !== false && Configuration::get('ARTSNOWSTORM_FLAKE_SIZE') !== null)
-                ? Configuration::get('ARTSNOWSTORM_FLAKE_SIZE')
-                : 24
-        ),
+            'ARTSNOWSTORM_EMOJI' => Tools::getValue('ARTSNOWSTORM_EMOJI', Configuration::get('ARTSNOWSTORM_EMOJI')),
+            'ARTSNOWSTORM_FLAKE_SIZE' => Tools::getValue('ARTSNOWSTORM_EMOJI', Configuration::get('ARTSNOWSTORM_EMOJI')),
+            'ARTSNOWSTORM_FLAKE_SIZE' => Tools::getValue('ARTSNOWSTORM_FLAKE_SIZE', Configuration::get('ARTSNOWSTORM_FLAKE_SIZE')),
         );
     }
 

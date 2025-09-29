@@ -2,7 +2,7 @@
 <module>
     <name>artsnowstorm</name>
     <displayName><![CDATA[Art Free Snow Storm]]></displayName>
-    <version><![CDATA[1.0.3]]></version>
+    <version><![CDATA[1.0.4]]></version>
     <description><![CDATA[The module inserts a javascript effect for a perfect storm of snow]]></description>
     <author><![CDATA[Tecnoacquisti.com]]></author>
     <tab><![CDATA[front_office_features]]></tab>

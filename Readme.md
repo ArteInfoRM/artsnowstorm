@@ -1,5 +1,7 @@
 # Art Free Snow Storm (artsnowstorm)
 
+![Built for PrestaShop](https://img.shields.io/badge/Built%20for-PrestaShop-DF0067?logo=prestashop&logoColor=white)  
+
 A PrestaShop module that adds a customizable falling snow effect to your shop using JavaScript.  
 This is an adaptation and extension for PrestaShop of the original [Snowstorm library](https://www.schillmania.com/projects/snowstorm/) by Scott Schiller.
 
